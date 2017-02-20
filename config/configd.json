@@ -1,0 +1,13 @@
+{
+  "broker":{
+  	"type":"rabbitmq",
+        "host":"rabbit",
+  	"port":"5672"
+  },
+  "db":{
+  	"type":"mongodb",
+        "host":"mongo",
+  	"port":"27017",
+  	"db":"denormalizer"
+  }
+}
